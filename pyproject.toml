@@ -1,0 +1,21 @@
+[project]
+name = "openai-agents-ar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gradio==5.33.1",
+    "gradio-client==1.10.3",
+    "openai==1.85.0",
+    "openai-agents==0.0.17",
+    "openapi-core==0.19.5",
+    "openapi-schema-validator==0.6.3",
+    "openapi-spec-validator==0.7.2",
+    "pandas==2.3.0",
+    "pydantic==2.11.5",
+    "pydantic-core==2.33.2",
+    "pydantic-settings==2.9.1",
+    "regex==2024.11.6",
+    "requests==2.32.4",
+]
