@@ -9,16 +9,19 @@ INSTRUCTIONS = (
     " at least 200 words."
 )
 
+class AnalyzeTestResult(BaseModel):
+    processed_report: str = Field(description = "the test results that you have analyze and provide your analysis")
+    
 
 class ReportData(BaseModel):
-    short_summary: str = Field(description="A short 2-3 sentence summary of the findings.")
-
+    short_summary: str = Field(description="A short 2-3 sentence summary of the findings for each test.")
+    reason: str= Field(description = "Your reasoning for the analysis you provided. This needs to be provided only when an abnormality is reported in the test result")
     markdown_report: str = Field(description="The final report")
 
-    follow_up_questions: list[str] = Field(description="Suggested topics to research further")
+    #follow_up_questions: list[str] = Field(description="Suggested topics to research further")
 
 
-writer_agent = Agent(
+pathologist = Agent(
     name="Pathologist_agent",
     instructions=INSTRUCTIONS,
     model="gpt-4o-mini",

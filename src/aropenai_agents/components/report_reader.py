@@ -63,9 +63,6 @@ class Reports:
             else:
                 if current_section:
                     current_section["content"].append(line)
-                    #section_content_value.append(line)
-        #logger.info(sections)
-        #logger.info(section_content_value)
         return sections
     
     def extracting_test_name_and_values_from_sections(self, sections):
@@ -73,9 +70,9 @@ class Reports:
         test_name_and_values = []
         for section in sections:
             section_content = section["content"]
-            logger.info(f"section_content:{section_content}")
+            #logger.info(f"section_content:{section_content}")
             content_in_line = "\n".join(section_content)
-            logger.info(f"content_in_line:{content_in_line}")
+            #logger.info(f"content_in_line:{content_in_line}")
             test_name_and_values.append(content_in_line)
             break
         return test_name_and_values
