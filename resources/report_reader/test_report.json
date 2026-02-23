@@ -1,0 +1,174 @@
+{
+    "Random Blood Sugar": {
+        "value": 96.9,
+        "unit": "mg/dl",
+        "ref_range": "70.00 - 140.00"
+    },
+    "Microbiology": {
+        "SEROLOGY PROFILE": {
+            "HCV": {
+                "status": "Non Reactive",
+                "value": 0.076,
+                "ref_range": "<0.90 : Non Reactive, >=0.90 : Reactive"
+            },
+            "HIV-1 & 2": {
+                "status": "Non Reactive",
+                "value": 0.409,
+                "ref_range": "<1.00 : Non Reactive"
+            },
+            "HBs Ag": {
+                "status": "Non Reactive",
+                "value": 0.554,
+                "ref_range": "<0.90 : Non Reactive, >=0.90 : Reactive"
+            }
+        }
+    },
+    "Haematology": {
+        "PROTHROMBIN TIME (PT)": {
+            "Control": {
+                "value": 12.7,
+                "unit": "Seconds"
+            },
+            "PROTHROMBIN TIME": {
+                "value": 12.7,
+                "unit": "Seconds",
+                "ref_range": "10.2 - 15.2"
+            },
+            "INR": {
+                "value": 1.0,
+                "ref_range": "0.8 - 1.19"
+            }
+        },
+        "ACTIVATED PARTIAL THROMBOPLASTIN TIME (APTT)": {
+            "APTT Control": {
+                "value": 30.0,
+                "unit": "sec"
+            },
+            "APTT Test": {
+                "value": 31.4,
+                "unit": "sec",
+                "ref_range": "24 - 36"
+            }
+        },
+        "Haemoglobin": {
+            "value": 15.6,
+            "unit": "g/dl",
+            "ref_range": "13 - 17"
+        },
+        "Total WBC Count": {
+            "value": 8000,
+            "unit": "cells/cumm",
+            "ref_range": "4000 - 11000"
+        },
+        "Neutrophils": {
+            "value": 56.5,
+            "unit": "%",
+            "ref_range": "40 - 75"
+        },
+        "Lymphocytes": {
+            "value": 30.3,
+            "unit": "%",
+            "ref_range": "20 - 45"
+        },
+        "Eosinophils": {
+            "value": 6.0,
+            "unit": "%",
+            "ref_range": "1 - 6"
+        },
+        "Monocytes": {
+            "value": 6.6,
+            "unit": "%",
+            "ref_range": "1 - 10"
+        },
+        "Basophils": {
+            "value": 0.4,
+            "unit": "%",
+            "ref_range": "0 - 1"
+        },
+        "Band": {
+            "value": 0,
+            "unit": "%"
+        },
+        "Abnormal": {
+            "value": 0,
+            "unit": "%"
+        },
+        "Absolute Neutrophil Count": {
+            "value": 4500,
+            "unit": "/cumm",
+            "ref_range": "2000 - 7000"
+        },
+        "Absolute Lymphocyte Count": {
+            "value": 2400,
+            "unit": "/cumm",
+            "ref_range": "1000 - 3000"
+        },
+        "Absolute Monocytes Count": {
+            "value": 500,
+            "unit": "/cumm",
+            "ref_range": "200 - 1000"
+        },
+        "Absolute Eosinophil Count": {
+            "value": 500,
+            "unit": "/cumm",
+            "ref_range": "20 - 500"
+        },
+        "Absolute Basophil Count": {
+            "value": 0,
+            "unit": "/cumm",
+            "ref_range": "0 - 100"
+        },
+        "Haematocrit (PCV)": {
+            "value": 45.7,
+            "unit": "%",
+            "ref_range": "40 - 50"
+        },
+        "RBC Count": {
+            "value": 5.13,
+            "unit": "Million/cumm",
+            "ref_range": "4.5 - 5.5"
+        },
+        "MCH": {
+            "value": 30.5,
+            "unit": "pg",
+            "ref_range": "27 - 32"
+        },
+        "MCHC": {
+            "value": 34.0,
+            "unit": "g/dl",
+            "ref_range": "31 - 34"
+        },
+        "MCV": {
+            "value": 89.1,
+            "unit": "fl",
+            "ref_range": "83 - 101"
+        },
+        "RDW": {
+            "value": 13.5,
+            "unit": "%",
+            "ref_range": "11.5 - 14.5"
+        },
+        "Platelet Count": {
+            "value": 277000,
+            "unit": "cells/cumm",
+            "ref_range": "150000 - 400000"
+        },
+        "ESR": {
+            "value": 2,
+            "unit": "mm/hr",
+            "ref_range": "0 - 5"
+        },
+        "MPV": {
+            "value": 7.4,
+            "unit": "fl",
+            "ref_range": "7.4 - 10.4"
+        },
+        "Peripheral Blood Smear": {
+            "RBCs": "Normocytic Normochromic",
+            "WBCs": "Normal in number with normal morphology and distribution",
+            "Platelets": "adequate",
+            "Comments": "No abnormal cells or hemoparasites seen"
+        },
+        "IMPRESSION": "Normocytic Normochromic blood picture"
+    }
+}

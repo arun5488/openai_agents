@@ -1,0 +1,6 @@
+resources_root: resources
+
+report_reader:
+  input_file_location: resources/report_reader/Lab_report.pdf
+  output_file_location: resources/report_reader/test_report.json
+  ref_json: resources/report_reader/ref_test_report.json

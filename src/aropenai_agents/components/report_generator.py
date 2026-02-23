@@ -1,4 +1,4 @@
-from src.aropenai_agents.components.pathology_agent import pathologist, AnalyzeTestResult, ReportData
+from src.aropenai_agents.agents.pathology_agent import pathologist, AnalyzeTestResult, ReportData
 from src.aropenai_agents import logger
 import asyncio
 from agents import Runner, Agent, trace, gen_trace_id

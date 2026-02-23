@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 from agents import Agent
+from src.aropenai_agents import constants as const
 
 INSTRUCTIONS = (
     "You are an experienced Pathologist tasked with analyzing medical lab test report and inform if any abnormalities. "
@@ -24,6 +25,6 @@ class ReportData(BaseModel):
 pathologist = Agent(
     name="Pathologist_agent",
     instructions=INSTRUCTIONS,
-    model="gpt-4o-mini",
+    model=const.OPENAI_MODEL,
     output_type=ReportData,
 )
