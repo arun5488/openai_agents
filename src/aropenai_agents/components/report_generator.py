@@ -2,11 +2,12 @@ from src.aropenai_agents.agents.pathology_agent import pathologist, AnalyzeTestR
 from src.aropenai_agents import logger
 import asyncio
 from agents import Runner, Agent, trace, gen_trace_id
+import json
 
 class LabAdmin:
 
 
-    async def run(self, query: str):
+    async def run(self, query: json):
         """ Run the deep research process, yielding the status updates and the final report"""
         logger.info(f"Inside LabAdmin run method")
         trace_id = gen_trace_id()

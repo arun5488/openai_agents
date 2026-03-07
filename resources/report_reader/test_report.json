@@ -1,174 +1,211 @@
 {
-    "Random Blood Sugar": {
-        "value": 96.9,
-        "unit": "mg/dl",
-        "ref_range": "70.00 - 140.00"
-    },
-    "Microbiology": {
-        "SEROLOGY PROFILE": {
-            "HCV": {
-                "status": "Non Reactive",
-                "value": 0.076,
-                "ref_range": "<0.90 : Non Reactive, >=0.90 : Reactive"
-            },
-            "HIV-1 & 2": {
-                "status": "Non Reactive",
-                "value": 0.409,
-                "ref_range": "<1.00 : Non Reactive"
-            },
-            "HBs Ag": {
-                "status": "Non Reactive",
-                "value": 0.554,
-                "ref_range": "<0.90 : Non Reactive, >=0.90 : Reactive"
-            }
-        }
-    },
-    "Haematology": {
-        "PROTHROMBIN TIME (PT)": {
-            "Control": {
-                "value": 12.7,
-                "unit": "Seconds"
-            },
-            "PROTHROMBIN TIME": {
-                "value": 12.7,
-                "unit": "Seconds",
-                "ref_range": "10.2 - 15.2"
-            },
-            "INR": {
-                "value": 1.0,
-                "ref_range": "0.8 - 1.19"
-            }
+    "parameters": [
+        {
+            "test_name": "Random Blood Sugar",
+            "value": 96.9,
+            "unit": "mg/dl",
+            "reference_range": "70.00 - 140.00"
         },
-        "ACTIVATED PARTIAL THROMBOPLASTIN TIME (APTT)": {
-            "APTT Control": {
-                "value": 30.0,
-                "unit": "sec"
-            },
-            "APTT Test": {
-                "value": 31.4,
-                "unit": "sec",
-                "ref_range": "24 - 36"
-            }
+        {
+            "test_name": "HCV",
+            "value": 0.076,
+            "unit": null,
+            "reference_range": "<0.90",
+            "result": "Non Reactive"
         },
-        "Haemoglobin": {
+        {
+            "test_name": "HIV-1 & 2",
+            "value": 0.409,
+            "unit": null,
+            "reference_range": "<1.00",
+            "result": "Non Reactive"
+        },
+        {
+            "test_name": "HBs Ag",
+            "value": 0.554,
+            "unit": null,
+            "reference_range": "<0.90",
+            "result": "Non Reactive"
+        },
+        {
+            "test_name": "Prothrombin Time (PT)",
+            "value": 12.7,
+            "unit": "Seconds",
+            "reference_range": "10.2 - 15.2"
+        },
+        {
+            "test_name": "Control (PT)",
+            "value": 12.7,
+            "unit": "Seconds",
+            "reference_range": null
+        },
+        {
+            "test_name": "INR",
+            "value": 1.0,
+            "unit": null,
+            "reference_range": "0.8 - 1.19"
+        },
+        {
+            "test_name": "APTT Control",
+            "value": 30.0,
+            "unit": "sec",
+            "reference_range": null
+        },
+        {
+            "test_name": "APTT Test",
+            "value": 31.4,
+            "unit": "sec",
+            "reference_range": "24 - 36"
+        },
+        {
+            "test_name": "Haemoglobin",
             "value": 15.6,
             "unit": "g/dl",
-            "ref_range": "13 - 17"
+            "reference_range": "13 - 17"
         },
-        "Total WBC Count": {
+        {
+            "test_name": "Total WBC Count",
             "value": 8000,
             "unit": "cells/cumm",
-            "ref_range": "4000 - 11000"
+            "reference_range": "4000 - 11000"
         },
-        "Neutrophils": {
+        {
+            "test_name": "Neutrophils",
             "value": 56.5,
             "unit": "%",
-            "ref_range": "40 - 75"
+            "reference_range": "40 - 75"
         },
-        "Lymphocytes": {
+        {
+            "test_name": "Lymphocytes",
             "value": 30.3,
             "unit": "%",
-            "ref_range": "20 - 45"
+            "reference_range": "20 - 45"
         },
-        "Eosinophils": {
+        {
+            "test_name": "Eosinophils",
             "value": 6.0,
             "unit": "%",
-            "ref_range": "1 - 6"
+            "reference_range": "1 - 6"
         },
-        "Monocytes": {
+        {
+            "test_name": "Monocytes",
             "value": 6.6,
             "unit": "%",
-            "ref_range": "1 - 10"
+            "reference_range": "1 - 10"
         },
-        "Basophils": {
+        {
+            "test_name": "Basophils",
             "value": 0.4,
             "unit": "%",
-            "ref_range": "0 - 1"
+            "reference_range": "0 - 1"
         },
-        "Band": {
+        {
+            "test_name": "Band",
             "value": 0,
-            "unit": "%"
+            "unit": "%",
+            "reference_range": null
         },
-        "Abnormal": {
+        {
+            "test_name": "Abnormal",
             "value": 0,
-            "unit": "%"
+            "unit": "%",
+            "reference_range": null
         },
-        "Absolute Neutrophil Count": {
+        {
+            "test_name": "Absolute Neutrophil Count",
             "value": 4500,
             "unit": "/cumm",
-            "ref_range": "2000 - 7000"
+            "reference_range": "2000 - 7000"
         },
-        "Absolute Lymphocyte Count": {
+        {
+            "test_name": "Absolute Lymphocyte Count",
             "value": 2400,
             "unit": "/cumm",
-            "ref_range": "1000 - 3000"
+            "reference_range": "1000 - 3000"
         },
-        "Absolute Monocytes Count": {
+        {
+            "test_name": "Absolute Monocytes Count",
             "value": 500,
             "unit": "/cumm",
-            "ref_range": "200 - 1000"
+            "reference_range": "200 - 1000"
         },
-        "Absolute Eosinophil Count": {
+        {
+            "test_name": "Absolute Eosinophil Count",
             "value": 500,
             "unit": "/cumm",
-            "ref_range": "20 - 500"
+            "reference_range": "20 - 500"
         },
-        "Absolute Basophil Count": {
+        {
+            "test_name": "Absolute Basophil Count",
             "value": 0,
             "unit": "/cumm",
-            "ref_range": "0 - 100"
+            "reference_range": "0 - 100"
         },
-        "Haematocrit (PCV)": {
+        {
+            "test_name": "Haematocrit (PCV)",
             "value": 45.7,
             "unit": "%",
-            "ref_range": "40 - 50"
+            "reference_range": "40 - 50"
         },
-        "RBC Count": {
+        {
+            "test_name": "RBC Count",
             "value": 5.13,
             "unit": "Million/cumm",
-            "ref_range": "4.5 - 5.5"
+            "reference_range": "4.5 - 5.5"
         },
-        "MCH": {
+        {
+            "test_name": "MCH",
             "value": 30.5,
             "unit": "pg",
-            "ref_range": "27 - 32"
+            "reference_range": "27 - 32"
         },
-        "MCHC": {
+        {
+            "test_name": "MCHC",
             "value": 34.0,
             "unit": "g/dl",
-            "ref_range": "31 - 34"
+            "reference_range": "31 - 34"
         },
-        "MCV": {
+        {
+            "test_name": "MCV",
             "value": 89.1,
             "unit": "fl",
-            "ref_range": "83 - 101"
+            "reference_range": "83 - 101"
         },
-        "RDW": {
+        {
+            "test_name": "RDW",
             "value": 13.5,
             "unit": "%",
-            "ref_range": "11.5 - 14.5"
+            "reference_range": "11.5 - 14.5"
         },
-        "Platelet Count": {
+        {
+            "test_name": "Platelet Count",
             "value": 277000,
             "unit": "cells/cumm",
-            "ref_range": "150000 - 400000"
+            "reference_range": "150000 - 400000"
         },
-        "ESR": {
+        {
+            "test_name": "ESR",
             "value": 2,
             "unit": "mm/hr",
-            "ref_range": "0 - 5"
+            "reference_range": "0 - 5"
         },
-        "MPV": {
+        {
+            "test_name": "MPV",
             "value": 7.4,
             "unit": "fl",
-            "ref_range": "7.4 - 10.4"
+            "reference_range": "7.4 - 10.4"
         },
-        "Peripheral Blood Smear": {
-            "RBCs": "Normocytic Normochromic",
-            "WBCs": "Normal in number with normal morphology and distribution",
-            "Platelets": "adequate",
-            "Comments": "No abnormal cells or hemoparasites seen"
+        {
+            "test_name": "Peripheral Blood Smear",
+            "value": "RBCs:Normocytic Normochromic; WBCs: Normal in number with normal morphology and distribution; Platelets: adequate; No abnormal cells or hemoparasites seen",
+            "unit": null,
+            "reference_range": null
         },
-        "IMPRESSION": "Normocytic Normochromic blood picture"
-    }
+        {
+            "test_name": "Impression",
+            "value": "Normocytic Normochromic blood picture",
+            "unit": null,
+            "reference_range": null
+        }
+    ]
 }
